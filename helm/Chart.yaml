@@ -1,0 +1,6 @@
+apiVersion: v2
+name: do-floating-ip-manager
+description: A thing to make K8s DO nodes outbound traffic go through floating IP
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

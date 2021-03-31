@@ -1,0 +1,8 @@
+This application requires Digital Ocean token to be passed through secret.
+          - name: DO_TOKEN
+            valueFrom:
+              secretKeyRef:
+                name: do-token
+                key: token
+
+Please put secret separately of this HELM release
