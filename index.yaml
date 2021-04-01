@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   do-floating-ip-manager:
   - apiVersion: v2
+    appVersion: 0.1.5
+    created: "2021-04-01T10:17:17.104512152Z"
+    description: A thing to make K8s DO nodes outbound traffic go through floating
+      IP
+    digest: 6410fab303ef10d212e316b881deaf527df839a982cbc5b9a48f19bfbb8a05be
+    name: do-floating-ip-manager
+    type: application
+    urls:
+    - https://github.com/andreygolev/digital-ocean-k8s-floating-ip-outbound/releases/download/do-floating-ip-manager-0.1.5/do-floating-ip-manager-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     appVersion: 0.1.4
     created: "2021-04-01T09:54:45.776074525Z"
     description: A thing to make K8s DO nodes outbound traffic go through floating
@@ -23,4 +34,4 @@ entries:
     urls:
     - https://github.com/andreygolev/digital-ocean-k8s-floating-ip-outbound/releases/download/do-floating-ip-manager-0.1.3/do-floating-ip-manager-0.1.3.tgz
     version: 0.1.3
-generated: "2021-04-01T09:54:45.776081525Z"
+generated: "2021-04-01T10:17:17.104530652Z"
