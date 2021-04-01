@@ -90,8 +90,12 @@ CHECKLOOP:
 		resp.Body.Close()
 
 		if isActiveFloatingIP == "false" {
-			glog.Infof("Node doesn't have floating IP assigned, but should. Starting assignment procedure...")
+			glog.Info("Node doesn't have floating IP assigned, but should. Starting assignment procedure...")
 			break
+		}
+
+		if isActiveFloatingIP == "true" {
+			glog.Info("Floating IP already assigned. Sleeping for 5 seconds")
 		}
 
 		time.Sleep(5 * time.Second)
