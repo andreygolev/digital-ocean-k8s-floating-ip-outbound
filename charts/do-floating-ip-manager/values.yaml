@@ -43,6 +43,10 @@ resources: {}
   #   cpu: 100m
   #   memory: 128Mi
 
+tolerations: {}
+nodeSelector: {}
+affinity: {}
+
 verbosity: 4
 dryRun: true
 matchString: "default"
